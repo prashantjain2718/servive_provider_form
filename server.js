@@ -15,7 +15,7 @@ const db = mysql.createConnection({
     host: 'localhost',     // No need for port here (unless you're using a non-default port)
     port: 3306,            // Explicitly add port if needed (MySQL default is 3306)
     user: 'root',
-    password: 'root',      // Your MySQL password
+    password: 'your_root_password',      // Your MySQL password
     database: 'service_provider'
 });
 
