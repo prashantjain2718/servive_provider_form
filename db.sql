@@ -6,4 +6,5 @@ CREATE TABLE IF NOT EXISTS providers (
     contact VARCHAR(255) NOT NULL,
     service VARCHAR(255) NOT NULL
 );
+DESCRIBE providers;
 SELECT * FROM providers;
